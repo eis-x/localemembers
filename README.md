@@ -1,98 +1,98 @@
-### Documentation du Module `localemembers`
+### `localemembers` Module Documentation
 
-Bienvenue dans la documentation du module `localemembers`. Ce module Python est conçu pour détecter et formater les informations de localisation du système, en utilisant le module `locale`. Il fournit également une interface graphique élégante et épurée pour afficher ces informations à l'utilisateur.
+Welcome to the documentation for the `localemembers` module. This Python module is designed to detect and format system localization information using the `locale` module. It also provides an elegant and sleek graphical interface to display this information to the user.
 
-#### Table des Matières
+#### Table of Contents
 
-- [Documentation du Module `localemembers`](#documentation-du-module-localemembers)
-  - [Table des Matières](#table-des-matières)
+- [`localemembers` Module Documentation](#localemembers-module-documentation)
+  - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Fonctionnalités](#fonctionnalités)
-- [Interface Graphique](#interface-graphique)
-  - [Exemple d'interface graphique](#exemple-dinterface-graphique)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
+- [Usage](#usage)
+- [Features](#features)
+- [Graphical Interface](#graphical-interface)
+  - [Example of the Graphical Interface](#example-of-the-graphical-interface)
+- [Contributing](#contributing)
+- [License](#license)
 
 ### Installation
 
-Vous pouvez installer le module `localemembers` en utilisant pip :
+You can install the `localemembers` module using pip:
 
 ```bash
 pip install localemembers
 ```
 
-Pour une installation locale, vous pouvez cloner le dépôt GitHub et installer le module en mode développement :
+For a local installation, you can clone the GitHub repository and install the module in development mode:
 
 ```bash
-git clone https://github.com/votrecompte/localemembers.git
+git clone https://github.com/yourusername/localemembers.git
 cd localemembers
 pip install -e .
 ```
 
-### Utilisation
+### Usage
 
-Voici un exemple de la façon d'utiliser le module `localemembers` pour obtenir et afficher les informations de localisation du système :
+Here is an example of how to use the `localemembers` module to obtain and display system localization information:
 
 ```python
 import localemembers
 
-# Pour exécuter la fonction principale
+# To run the main function
 localemembers.main()
 
-# Pour exécuter l'interface graphique
+# To run the graphical interface
 localemembers.gui_main()
 ```
 
-### Fonctionnalités
+### Features
 
-Le module `localemembers` fournit les fonctionnalités suivantes :
+The `localemembers` module provides the following features:
 
-- **Détection et formatage des informations de localisation** :
-  - `system_locale`: Locale du système.
-  - `locale_encoding`: Encodage de la locale.
-  - `friendly_language`: Langue de la locale.
-  - `locale_country`: Pays de la locale.
-  - `language_code`: Code de la langue.
-  - `country_code`: Code du pays.
-  - `formatted_language_code`: Code de la langue formaté.
-  - `currency_symbol`: Symbole monétaire.
-  - `decimal_point`: Point décimal.
-  - `thousands_separator`: Séparateur de milliers.
-  - `date_format`: Format de la date.
-  - `time_format`: Format de l'heure.
-  - `radix_char`: Caractère radix.
-  - `thousands_sep`: Séparateur de milliers.
-  - `yes_expr`: Expression régulière pour "oui".
-  - `no_expr`: Expression régulière pour "non".
-  - `currency_str`: Chaîne de devise.
-  - `era`: Ère.
-  - `era_d_t_fmt`: Format de date/heure basé sur l'ère.
-  - `era_d_fmt`: Format de date basé sur l'ère.
-  - `era_t_fmt`: Format de l'heure basé sur l'ère.
-  - `alt_digits`: Chiffres alternatifs.
+- **Detection and formatting of localization information**:
+  - `system_locale`: System locale.
+  - `locale_encoding`: Locale encoding.
+  - `friendly_language`: Locale language.
+  - `locale_country`: Locale country.
+  - `language_code`: Language code.
+  - `country_code`: Country code.
+  - `formatted_language_code`: Formatted language code.
+  - `currency_symbol`: Currency symbol.
+  - `decimal_point`: Decimal point.
+  - `thousands_separator`: Thousands separator.
+  - `date_format`: Date format.
+  - `time_format`: Time format.
+  - `radix_char`: Radix character.
+  - `thousands_sep`: Thousands separator.
+  - `yes_expr`: Regular expression for "yes".
+  - `no_expr`: Regular expression for "no".
+  - `currency_str`: Currency string.
+  - `era`: Era.
+  - `era_d_t_fmt`: Era-based date/time format.
+  - `era_d_fmt`: Era-based date format.
+  - `era_t_fmt`: Era-based time format.
+  - `alt_digits`: Alternative digits.
 
-### Interface Graphique
+### Graphical Interface
 
-Le module `localemembers` inclut une interface graphique élégante et épurée, créée avec PyQt5, pour afficher les informations de localisation à l'utilisateur. L'interface graphique est maximisée au démarrage et les composants sont dynamiques.
+The `localemembers` module includes an elegant and sleek graphical interface, created with PyQt5, to display localization information to the user. The graphical interface is maximized at startup and the components are dynamic.
 
-#### Exemple d'interface graphique
+#### Example of the Graphical Interface
 
 ```python
 import localemembers
 
-# Pour exécuter l'interface graphique
+# To run the graphical interface
 localemembers.gui_main()
 ```
 
-### Contribuer
+### Contributing
 
-Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou soumettre une pull request sur le dépôt GitHub.
+Contributions are welcome! Please open an issue or submit a pull request on the GitHub repository.
 
-### Licence
+### License
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Avec cette documentation complète, vous êtes prêt à utiliser et à contribuer au module `localemembers`. Si vous avez besoin de plus d'aide ou de modifications supplémentaires, n'hésitez pas à me le faire savoir ! 😊
+With this comprehensive documentation, you are ready to use and contribute to the `localemembers` module. If you need further assistance or modifications, feel free to let me know! 😊
