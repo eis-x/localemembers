@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='localemembers',
-    version='1.1.0',  # Updated version
+    version='1.1.1',  # Updated version
     author='Your Name',
     author_email='your.email@example.com',
     description='A Python module to detect and format system localization information.',

@@ -133,29 +133,6 @@ localemembers.gui_main()
 
 - **Maximized Window**: The window is maximized at startup for better visibility.
 - **Dynamic Components**: The components in the interface are dynamic and update based on the system's locale information.
-- **User-Friendly Layout**: The layout is designed to be user-friendly and easy to navigate.
-
-### Project Structure
-
-The `localemembers` project has the following structure:
-
-```
-localemembers/
-├── localemembers/
-│   ├── __init__.py
-│   ├── locale_members.py
-│   ├── gui.py
-├── tests/
-│   ├── __init__.py
-│   └── test_locale_members.py
-├── .gitignore
-├── LICENSE
-├── localemembers.tr
-├── main.py
-├── README.md
-├── requirements.txt
-└── setup.py
-```
 
 #### Description of Files
 
