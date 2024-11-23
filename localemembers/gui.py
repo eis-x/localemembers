@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget
 
 # Import the function to detect system friendly language
-from .locale_members import detect_system_friendly_language, system_locale, locale_encoding, friendly_language, locale_country, language_code, country_code, formatted_language_code, currency_symbol, decimal_point, thousands_separator, date_format, time_format, radix_char, thousands_sep, yes_expr, no_expr, currency_str, era, era_d_t_fmt, era_d_fmt, era_t_fmt, alt_digits
+from .locale_members import detect_system_language, locale, encoding, language, country, language_code, country_code, language_country_code, currency_symbol, decimal_point, thousands_separator, date_format, time_format, radix_char, thousands_sep, yes_expr, no_expr, currency_str, era, era_d_t_fmt, era_d_fmt, era_t_fmt, alt_digits
 
 class LocaleInfoWindow(QMainWindow):
     def __init__(self):
@@ -12,17 +12,17 @@ class LocaleInfoWindow(QMainWindow):
         self.showMaximized()
 
         # Initialize locale information
-        detect_system_friendly_language()
+        detect_system_language()
 
         # Create labels to display locale information
         self.labels = {
-            "System Locale": QLabel(f"System Locale: {system_locale}"),
-            "Locale Encoding": QLabel(f"Locale Encoding: {locale_encoding}"),
-            "Friendly Language": QLabel(f"Friendly Language: {friendly_language}"),
-            "Locale Country": QLabel(f"Locale Country: {locale_country}"),
+            "System Locale": QLabel(f"System Locale: {locale}"),
+            "Locale Encoding": QLabel(f"Locale Encoding: {encoding}"),
+            "Friendly Language": QLabel(f"Friendly Language: {language}"),
+            "Locale Country": QLabel(f"Locale Country: {country}"),
             "Short Language Code": QLabel(f"Short Language Code: {language_code}"),
             "Short Country Code": QLabel(f"Short Country Code: {country_code}"),
-            "Formatted Language Code": QLabel(f"Formatted Language Code: {formatted_language_code}"),
+            "Formatted Language Code": QLabel(f"Formatted Language Code: {language_country_code}"),
             "Currency Symbol": QLabel(f"Currency Symbol: {currency_symbol}"),
             "Decimal Point": QLabel(f"Decimal Point: {decimal_point}"),
             "Thousands Separator": QLabel(f"Thousands Separator: {thousands_separator}"),
