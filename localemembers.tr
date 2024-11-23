@@ -2,6 +2,7 @@ localemembers/
 ├── localemembers/
 │   ├── __init__.py
 │   ├── locale_members.py
+│   ├── gui.py
 ├── tests/
 │   ├── __init__.py
 │   └── test_locale_members.py
